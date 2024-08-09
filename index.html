@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
@@ -7,25 +8,52 @@
     <meta name="keywords" runat="server" id="seo" content="Intellectual Property Rights, Patentability, Validation, Consultant, Clearance" />
     <title>Novpat - IPR Consultant</title>
     <!-- core CSS -->
-    <link href="../Nova.github.io/Novpat Html/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css">
-    <link href="../Nova.github.io/Novpat Html/css/animate.min.css" rel="stylesheet">
-    <link href="../Nova.github.io/Novpat Html/css/owl.carousel.css" rel="stylesheet">
-    <link href="../Nova.github.io/Novpat Html/css/owl.transitions.css" rel="stylesheet">
-    <link href="../Nova.github.io/Novpat Html/css/prettyPhoto.css" rel="stylesheet">
-    <link href="../Nova.github.io/Novpat Html/css/main.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="../Nova.github.io/Novpat Html/js/html5shiv.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/respond.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../Nova.github.io/Novpat Html/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../Nova.github.io/Novpat Html/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../Nova.github.io/Novpat Html/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../Nova.github.io/Novpat Html/images/ico/apple-touch-icon-57-precomposed.png">
-
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <style>
+        form > input, form > textarea, form > label {
+            display: block;
+            margin-bottom: 5px;
+            font-family: 'Poppins'; 
+            font-weight:100;
+        }
+        .cinput{
+            width: 100%;
+            border: solid 1px grey; 
+            border-radius: 4px;
+        }
+        .counter{
+            float: right;
+            display: flex;
+            font-size: 14px;
+            color: gray;
+        }
+        .cbtn{ 
+            background-color: #e38d27;
+            color:#693e0a !important;
+            border:1px solid #bea280 !important;
+            width: 40%;
+            border-radius: 4px;
+        }
+</style>
+    
+    
 </head><!--/head-->
 <body id="home" class="homepage">
     <header id="header">
@@ -38,7 +66,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="../Nova.github.io/Novpat Html/images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
@@ -54,6 +82,16 @@
                                 <a href="#1D"><i class="fa fa-globe"></i> FTO Search</a>
                             </div>
                         </li>
+                        <li class="dropdown">
+                            <a href="#features" class="dropbtn"><i class="fa fa-industry"></i> Industries <i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#"><i class="fa fa-microchip"></i> Information &amp; Communication Technology (ICT)</a>
+                                <a href="#"><i class="fa fa-circle-notch"></i> Hi-Tech</a>
+                                <a href="#"><i class="fa fa-bolt"></i> Electronics</a>
+                                <a href="#"><i class="fa fa-cogs"></i> Engineering</a>
+                                <a href="#"><i class="fa fa-stethoscope"></i> Life Science &amp; Medical Domain</a>
+                            </div>
+                        </li>
                         <li class="scroll"><a href="#get-in-touch"><i class="fa fa-map-signs"></i> Contact</a></li>
                     </ul>
                 </div>
@@ -62,7 +100,7 @@
     </header><!--/header-->
     <section id="main-slider">
         <div class="owl-carousel">
-            <div class="item" style="background-image: url('../Nova.github.io/Novpat Html/images/slider/bg1.jpg');">
+            <div class="item" style="background-image: url('images/slider/bg1.jpg');">
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row">
@@ -85,13 +123,13 @@
                     </div>
                 </div>
             </div><!--/.item-->
-            <div class="item" style="background-image: url('../Nova.github.io/Novpat Html/images/slider/bg3.jpg');">
+            <div class="item" style="background-image: url('images/slider/bg3.jpg');">
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <p class="hrs-section-text2 display-5 mt80 textbrdr">We are a boutique consultancy firm specializing in providing <b>“PRIOR ART SEARCH REPORTS.”</b></p>
+                                    <p class="hrs-section-text2 display-5 mt80 textbrdr">We are a boutique consultancy firm specializing in providing <b>�PRIOR ART SEARCH REPORTS.�</b></p>
                                     <p class="hrs-section-text2 display-5 textbrdr">Contact with us & we can help you.</p>
                                     <a class="btn-play" href="#get-in-touch"><span class="fa play"></span></a>
                                 </div>
@@ -129,7 +167,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown Lobster">Our Services</h2>
-                <p class="text-center wow fadeInDown rubik s-2r"> We at ‘NovPat' safeguard assurance to our Customers. We offer Quality Patent Search Services with the only objective of providing Quality Customer Satisfaction. </p>
+                <p class="text-center wow fadeInDown rubik s-2r"> We at <q>NovPat</q> safeguard assurance to our Customers. We offer Quality Patent Search Services with the only objective of providing Quality Customer Satisfaction. </p>
             </div>
 
             <div class="media-container-row">
@@ -140,7 +178,8 @@
                     </div>
                     <div>
                         <h4 class="card-title display-55 Lobster"> Prior Art Search </h4>
-                        <p class="mbr-text6 display-7 s-1-5r rubik"> Our customizable prior art search services leverage Novpat’s expert staff of analysts, engineers, and patent attorneys with 500-plus years of collective IP experience and our worldwide IP and technological resource. As robust and flexible as your needs, Novpat's customizable reports can include: </p>
+                        <p class="mbr-text6 display-7 s-1-5r rubik"> Our customizable prior art search services leverage Novpat&apos;
+s expert staff of analysts, engineers, and patent attorneys with 500-plus years of collective IP experience and our worldwide IP and technological resource. As robust and flexible as your needs, Novpat's customizable reports can include: </p>
                         <ul class="nostyle">
                             <li class="justify s-1-5r rubik"> <i class="fab fa-react"></i> A complete history of our search process and strategy.</li>
                             <li class="justify s-1-5r rubik"> <i class="fab fa-react"></i> A short-list of references manually categorized and ranked for relevancy.</li>
@@ -189,7 +228,7 @@
                         <p class="mbr-text6 display-7 s-1-5r rubik"> A patentability search is directed to searching any reference of any kind which discloses the same. </p>
                         <p class="mbr-text6 display-7 s-1-5r rubik"> Patentability searches are conducted when an inventor has an novel invention which he is interested in filing a patent, and wishes to determine if anyone has previously invented anything similar or identical. </p>
                         <p class="mbr-text6 display-7 s-1-5r rubik"> In this search we cover both Patent Citations/Non-Patent Citations with different approaches and understanding. </p>
-                        <p class="mbr-text6 display-7 s-1-5r rubik"> Novelty searches generally have no date constraints on the prior art. In other words, if you find prior art that reads on the invention, it does not matter whether the prior art is from yesterday or 100 years ago – it is relevant. The reason for this lack of date constraints has to do with patent law: Anything that has already been disclosed to the public, in any manner, at any time, cannot be patented. </p>
+                        <p class="mbr-text6 display-7 s-1-5r rubik"> Novelty searches generally have no date constraints on the prior art. In other words, if you find prior art that reads on the invention, it does not matter whether the prior art is from yesterday or 100 years ago &hyphen; it is relevant. The reason for this lack of date constraints has to do with patent law: Anything that has already been disclosed to the public, in any manner, at any time, cannot be patented. </p>
                         <p class="mbr-text6 display-7 s-1-5r rubik"> The basic requirements for an invention to be Patented : </p>
                         <ul class="nostyle">
                             <li class="justify s-1-5r rubik"> <i class="fab fa-react"></i> Novelty</li>
@@ -224,7 +263,7 @@
                     </div>
                     <div>
                         <h4 class="card-title display-55 Lobster"> Freedom to Operate / Clearance Search </h4>
-                        <p class="mbr-text6 display-7 s-1-5r rubik"> A freedom-to-operate (FTO) or Right-to-Use Search or Right-To-Market or Clearance Search is a search done on issued patents or on pending patent applications to determine if a product or process infringes any of the claims of the issued patents or pending patent applications. A clearance search may also include expired art that acts as a ‘safe harbour’ permitting the product or process to be used based on patents in the public domain. These searches are often performed by one or more professional patent searchers who are under the direction of one or more patent attorneys. </p>
+                        <p class="mbr-text6 display-7 s-1-5r rubik"> A freedom-to-operate (FTO) or Right-to-Use Search or Right-To-Market or Clearance Search is a search done on issued patents or on pending patent applications to determine if a product or process infringes any of the claims of the issued patents or pending patent applications. A clearance search may also include expired art that acts as a <q>safe harbour</q> permitting the product or process to be used based on patents in the public domain. These searches are often performed by one or more professional patent searchers who are under the direction of one or more patent attorneys. </p>
                         <p class="mbr-text6 display-7 s-1-5r rubik" style="font-weight:bold; color:red;"> When to conduct a FTO search ? </p>
                         <p class="mbr-text6 display-7 s-1-5r rubik"> FTO search can be conducted at any stages of product development/ life cycle in thereby to track the direction of product development and its commercialisation. </p>
                         <p class="mbr-text6 display-7 s-1-5r rubik"> In the early stages of FTO search helps the developers to develop non-infringing products, processes or technology with respect to the relevant patent from third parties. </p>
@@ -249,152 +288,36 @@
         </div>
     </section>
 
-    <!--Section USP --
-    <section class="usp" id="usp">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown Lobster">Why US</h2>
-                <p class="text-center wow fadeInDown rubik s-2r"> We at ‘HRS FUSION INDIA' take pride in our non-conventional and out of box techniques in everything we deliver. This has been our underlying philosophy every time we deliver our services.</p>
-            </div>
-
-            <div class="media-container-row center">
-                <div class="mbr-text counter-container col-md-12 display-7">
-                    <ul class="s-1-75r rubik wow fadeInLeft">
-                        <li class="fab"> We holds hands with our clients from the inception stage till the launch and establishment of the brand.</li>
-                        <li class="fab"> We also helps in recruitment of the full sales and marketing force on behalf of companies and sets up the complete MIS reporting system for them.</li>
-                        <li class="fab"> We our client formulate effective sales credit policies and HR policies to run the business effectively.</li>
-                        <li class="fab"> We help our clients in setting up of after sales service centers.</li>
-                        <li class="fab"> We ensures that we deliver on both the top line and healthy bottom line as per the commitments made.</li>
-                        <li class="fab"> We help our clients in launching of new products / categories / companies into unrepresented geographies.</li>
-                        <li class="fab"> We ensuring corporate and promotions tie-ups in different verticals such as Ecommerce, Large Format Stores, TV Shoppe.</li>
-                        <li class="fab"> We provide budget based effective ATL and BTL strategies for our clients to solve the purpose.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--
-    <section id="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Clients</h2>
-                <p class="text-center wow fadeInDown"><strong>Brands We Love</strong></p>
-            </div>
-
-            <div class="portfolio-items">
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-
-                <div class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="#" alt="Cliet Name">
-                        <div class="portfolio-info">
-                            <h3>Client Name</h3>
-                            Description
-                            <a class="preview" href="#" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item--
-            </div>
-        </div><!--/.container--
-    </section><!--/#portfolio-->
-    <!--
     <section id="testimonial">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
 
                     <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
-                        <!-- Wrapper for slides --
+                        <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
-                            <asp:Repeater ID="Reaptestom" runat="server" >
-                                <ItemTemplate>
-                                    <div class="item active">
-                                        <p><img class="img-circle img-thumbnail" src="#" alt=""></p>
-                                        <h4>Name </h4>
-                                        <small>Description </small>
-                                        <p>Message </p>
-                                    </div>
-                                </ItemTemplate>
-                            </asp:Repeater>
+                            <div class="item active">
+                                <p><img class="img-circle img-thumbnail" src="images\team\face6.jpg" alt=""></p>
+                                <h4>Independent Inventor </h4>
+                                <small>Independent Inventor </small>
+                                <p>I hired Okesh to conduct a patent search and analysis for my invention idea. I was very impressed by the quality and professionalism of his work.He delivered a comprehensive and detailed report was shared within the deadlines and covered all the relevant aspects of patentability, novelty, and prior art. I would highly recommend them to anyone looking for a reliable and expert patent researcher and will work with him for sure in the future again.
+                                </p>
+                            </div>
+                            <div class="item">
+                                <p><img class="img-circle img-thumbnail" src="images\team\face8.jpg" alt=""></p>
+                                <h4>Tommy R. </h4>
+                                <small>Tommy R. </small>
+                                <p>Amazing quality! I won't pay thousands for artwork ever again knowing that Okesh actually brings higher quality for less. Unreal how much value I get from working with him. Highly recommend! </p>
+                            </div>
+                            <div class="item">
+                                <p><img class="img-circle img-thumbnail" src="#" alt=""></p>
+                                <h4>US Patent Attorney </h4>
+                                <small>US Patent Attorney </small>
+                                <p>This is the third or fourth prior art search I've done with Okesh. I highly recommend him.  He is very detailed and the reports are clear and easy to read through. </p>
+                            </div>
                         </div>
 
-                        <!-- Controls --
+                        <!-- Controls -->
                         <div class="btns">
                             <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
                                 <span class="fa fa-angle-left" aria-hidden="true"></span>
@@ -409,7 +332,7 @@
                 </div>
             </div>
         </div>
-    </section><!--/#testimonial-->
+    </section>
     <section id="get-in-touch">
         <div class="container">
             <div class="section-header">
@@ -419,25 +342,33 @@
         </div>
     </section><!--/#get-in-touch-->
     <section id="contact">
-        <!--div id="google-map" style="height:650px" data-latitude="28.63298048" data-longitude="77.21951504"><div-->
         <div style="width: 100%">
-            <iframe id="google-map" width="100%" height="350px" src="https://maps.google.com/maps?width=100%&amp;height=650&amp;hl=en&amp;coord=28.9208533,-1.7853818&amp;ie=UTF8&amp;t=&amp;z=14&amp;output=embed&iwloc=near" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe id="google-map" width="100%" height="600px" src="https://maps.google.com/maps?width=100%&amp;height=650&amp;hl=en&amp;coord=28.9208533,-1.7853818&amp;ie=UTF8&amp;t=&amp;z=14&amp;output=embed&iwloc=near" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
         <div class="container-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-8">
-                        <div class="contact-form" style="height:250px">
-                            <h3 class="Lobster">Contact with us  & we can help you </h3>
+                        <div class="contact-form" style="height:500px">
+                            <h3 class="Lobster">Contact us </h3>
+                            <h5>Thank you for your interest. Please fill out the form below and we shall revert within a working day.</h5>
                             <address>
                                 <p style="margin-bottom:5px;"> <strong> Novpat </strong> </p>
                                 <i class="fa fa-map-signs"> :</i> 700/16, Floor 2, <br/> 
-                                <p style="padding-left:26px;padding-bottom:0px;"> Diwan Singh Nyal Road, </p>
+                                <p style="padding-left:26px;margin-bottom:0px;"> Diwan Singh Nyal Road</p>
                                 <p style="padding-left:26px;"> Delhi, India 110094</p>
                                 <i class="fa fa-phone"> :</i> <a href="tel:918506890400"> (+91) 8506890400</a><br />
-                                <i class="fa fa-at"> :</i> <a href="mailto:info@novpat.com">info@novpat.com</a><br />
-                                <!--<i class="fa fa-info"> :</i> <font style="color: red"> Contact us on our Social Media Channels. </font-->
+                                <i class="fa fa-at"> :</i> <a href="mailto:info@novpat.com">Info@novpat.com</a><br /><br />
+                                <!--<i class="fa fa-info"> :</i> <font style="color: red"> Contact us on our Social Media Channels. </font>-->
                             </address>
+                            <form name="contact" method="post">
+                                <input type="text" name="name" class="cinput" placeholder=" Enter Name" required />
+                                <input type="email" name="email" class="cinput" placeholder=" Enter E-mail" required />
+                                <input type="tel" name="phone" pattern="[0-9]{10}" class="cinput" placeholder=" Enter 10-digit mobile number" required />
+                                <textarea name="message" id="message" placeholder=" Message" class="cinput" maxlength="5000" required></textarea>
+                                <div class="counter"><p class="counter_characters">0</p>/<p>5000</p></div>
+                                <input type="submit" name="send" class="cbtn" value="Send"/>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -447,7 +378,7 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6" id="footertag">Copyright &copy; 2021-<script type="text/javascript">var today = new Date(); y0 = today.getFullYear(); document.write(y0);</script> Novpat. All Rights reserved by <b>Novpat</b>.</div>
+                <div class="col-sm-6" id="footertag">Copyright &copy; 2021-<script type="text/javascript">var today = new Date(); xx = today.getFullYear(); document.write(xx);</script> Novpat. All Rights reserved by <b>Novpat</b>.</div>
                 
                 <div class="col-sm-6">
                     <ul class="social-icons">
@@ -459,17 +390,56 @@
             </div>
         </div>
     </footer><!--/#footer-->
-    <script src="../Nova.github.io/Novpat Html/js/jquery.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/bootstrap.min.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/owl.carousel.min.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/mousescroll.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/smoothscroll.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/jquery.prettyPhoto.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/jquery.isotope.min.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/jquery.inview.min.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/wow.min.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/main.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/typed.min.js"></script>
-    <script src="../Nova.github.io/Novpat Html/js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+    <script>
+        let textarea = document.getElementById('message');
+        let counter_characters = document.querySelector('.counter_characters');
+        message.oninput = function()
+        {counter_characters.innerText = message.value.length;}
+        
+        var form = document.forms["contact"];
+        form.addEventListener('submit',contact_submit,false);
+        
+        function contact_submit(e) {
+            // Stop Form From Submittin
+            e.preventDefault();
+            
+            // Set Initial Variable
+            var target = e.target || e.srcElement;
+            var to = 'info@novpat.com';
+            var uri = 'mailto:' + to;
+            var body = '';
+
+            // Set Form Values to Variables
+            var name = target.elements['name'].value;
+            var email = target.elements['email'].value;
+            var phone = target.elements['phone'].value;
+            var message = target.elements['message'].value;
+
+            // Build Body / Message with all Input Fields
+            body += message + "\r\n\r\n";
+            body += "Name: " + name + "\r\n";
+            body += "Email: " + email + "\r\n";
+            body += "Phone Number: " + phone + "\r\n";
+            
+            // Build final Mailto URI
+            uri += '?subject=' + encodeURIComponent(subject);
+            uri += '&body=' + encodeURIComponent(body);
+            
+            // Open Mailto in New Window / Tab
+            window.open(uri,'_blank');
+        }
+</script>
 </html>
