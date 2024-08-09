@@ -454,6 +454,11 @@ ul.nostyle i {
   margin-top: 10px;
 }
 
+.img-thumbnail{
+    width: 125px;
+    height: 125px;
+}
+
 /**About**/
 #about {
   padding: 100px 0;
@@ -558,6 +563,12 @@ ul.nostyle i {
 }
 #contact .contact-form h3 {
   margin-top: 0;
+}
+#contact .contact-form h5 {
+  margin-top: 0;
+  font-family: 'Poppins'; 
+  font-weight: 500;
+  font-size: 12px;
 }
 /***********************
 ********* Footer ******
